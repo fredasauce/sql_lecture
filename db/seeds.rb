@@ -23,8 +23,6 @@
   end
 end
 
-
-
 5000.times do
   customer = Customer.all.sample
   book = Book.where(library_id: customer.library_id).sample

@@ -14,7 +14,7 @@ class GenreChart extends React.Component {
   state = { books: [] }
 
   componentDidMount() {
-    axios.get('/api/books')
+    axios.get('/api/books') 
       .then(res => {
         this.setState({ books: res.data })
       })

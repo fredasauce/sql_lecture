@@ -12,7 +12,7 @@ const MonthlyRentalTrendChart = () => {
       .then(res => {
         setBooks(res.data)
       })
-  }, [])
+  }, []) 
 
   return (
     <BarChart

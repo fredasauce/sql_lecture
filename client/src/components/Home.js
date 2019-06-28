@@ -28,7 +28,7 @@ class Home extends React.Component {
   }
 
   handleChange = (name) => {
-    this.setState({ column: name })
+    this.setState({ column: name }) 
   }
 
   render() {
@@ -53,7 +53,7 @@ class Home extends React.Component {
           </Table.Body>
         </Table>
       </div>
-    )
+    ) 
   }
 }
 

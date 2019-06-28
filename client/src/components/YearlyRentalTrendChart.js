@@ -28,5 +28,5 @@ const YearlyRentalTrendChart = () => {
     </ScatterChart>
   )
 }
-
+ 
 export default YearlyRentalTrendChart
